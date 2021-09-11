@@ -42,7 +42,6 @@ void inputType() {
 	 setlocale(LC_ALL, "Russian");
 	 int user—hoice = 0;
 	 string input;
-	 string manualInput;
 	 string fileName;
 	 cout << endl << "Choose input type:" << endl;
 	 cout << "1. From file" << endl;

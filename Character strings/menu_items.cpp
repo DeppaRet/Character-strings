@@ -1,6 +1,5 @@
 #include <iostream>
 #include <fstream>
-#include <math.h>
 #include <string>
 #include "interface.h"
 #include "mixer.h"
@@ -10,10 +9,8 @@ enum user—hoice { About = 1, Start, Exit, Yes = 1, No, Work = 0, Die = 6 };
 
 
 int workWithMenu() {
-	 int cols, rows, menu, restriction = 1;
-	 int** arr = nullptr;
+	 int menu;
 	 int user—hoice;
-	 string file_path;
 	 programInterface();
 	 for (user—hoice = Work; user—hoice < Die; user—hoice++) {
 			cin >> user—hoice;

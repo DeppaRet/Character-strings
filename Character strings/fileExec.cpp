@@ -71,7 +71,7 @@ void saveFile(string text, string type) {
    {
       ofstream out;
       string filePath;
-      cout << "Enter the path to the file and its name: " << endl;
+      cout << "Enter filename: " << endl;
       cin >> filePath;
       checkFileName(filePath);
       out.open(filePath);
